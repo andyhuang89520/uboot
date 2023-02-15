@@ -1,0 +1,90 @@
+rt2880_init.o: rt2880_init.S \
+ /home/andyhuang/openwrt/uboot/Uboot/include/config.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/configs/rt2880.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/configs/../../autoconf.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/cmd_confdefs.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/version.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/../uboot_version.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/regdef.h include/sysc.h \
+ include/product.h include/mem_map.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/rt_mmap.h \
+ include/mem_map_1fc0.h include/chip_reg_map.h include/aux_reg_map.h \
+ include/product.h include/mem_map.h include/mac.inc \
+ include/chip_reg_map.h include/cpu.h
+memsetup.o: memsetup.S \
+ /home/andyhuang/openwrt/uboot/Uboot/include/config.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/configs/rt2880.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/configs/../../autoconf.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/cmd_confdefs.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/version.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/../uboot_version.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/regdef.h \
+ include/product.h include/mem_map.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/rt_mmap.h \
+ include/mem_map_1fc0.h include/chip_reg_map.h include/aux_reg_map.h \
+ include/mem_map.h include/mac.inc include/chip_reg_map.h
+rt2880.o: rt2880.c /home/andyhuang/openwrt/uboot/Uboot/include/common.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/config.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/configs/rt2880.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/configs/../../autoconf.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/cmd_confdefs.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/bitops.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/bitops.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/types.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/config.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/posix_types.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/stddef.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/posix_types.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/types.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/byteorder.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/byteorder/little_endian.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/byteorder/swab.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/byteorder/generic.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/sgidefs.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/system.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/ptrace.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/isadep.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/string.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/string.h \
+ /opt/mips-2012.03/bin/../lib/gcc/mips-sde-elf/4.6.3/include/stdarg.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/part.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/ide.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/flash.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/image.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/u-boot.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/global_data.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/regdef.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/command.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/addrspace.h
+serial.o: serial.c /home/andyhuang/openwrt/uboot/Uboot/include/common.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/config.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/configs/rt2880.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/configs/../../autoconf.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/cmd_confdefs.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/bitops.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/bitops.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/types.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/config.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/posix_types.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/stddef.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/posix_types.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/types.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/byteorder.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/byteorder/little_endian.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/byteorder/swab.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/byteorder/generic.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/sgidefs.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/system.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/ptrace.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/isadep.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/linux/string.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/string.h \
+ /opt/mips-2012.03/bin/../lib/gcc/mips-sde-elf/4.6.3/include/stdarg.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/part.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/ide.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/flash.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/image.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/u-boot.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/global_data.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/asm/regdef.h serial.h \
+ /home/andyhuang/openwrt/uboot/Uboot/include/rt_mmap.h
